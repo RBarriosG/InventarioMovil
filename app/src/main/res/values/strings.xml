@@ -5,7 +5,6 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
 
     <string name="menu_gallery">Gallery</string>
     <string name="communicate">communicate</string>
@@ -13,7 +12,10 @@
     <string name="descripcion">Descripcion:</string>
     <string name="precio">Precio:</string>
     <string name="agregar_articulo">Agregar Articulo</string>
-    <string name="codigo_articulo">Codigo Articulo</string>
+    <string name="codigo_articulo">Codigo Articulo:</string>
     <string name="cancelar">Cancelar</string>
     <string name="guardar">Guardar</string>
+    <string name="error_codigo">dato vacio o codigo menor o igual a 0</string>
+    <string name="error_descripcion">Descripcion vacia o menor a 3 letras</string>
+    <string name="error_precio">Precio vacio o menor a $50</string>
 </resources>

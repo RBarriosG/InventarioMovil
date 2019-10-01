@@ -50,6 +50,6 @@ public class DialogoAgregarArticulo extends DialogFragment {
         botonCancelar = dialogView.findViewById(R.id.botonCancelar);
         botonGuardar = dialogView.findViewById(R.id.botonGuardar);
 
-        return super.onCreateDialog(savedInstanceState);
+        return builder.create();
     }
 }

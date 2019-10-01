@@ -24,8 +24,7 @@ public class ViewModelArticulo extends AndroidViewModel {
         return repositorioArticulo.listarArticulos();
     }
 
-    public void guardar(){
-        EntidadArticulo entidadArticulo = new EntidadArticulo(2000,"Maracuya",2500);
+    public void guardar(EntidadArticulo entidadArticulo){
         repositorioArticulo.guardar(entidadArticulo);
     }
 
