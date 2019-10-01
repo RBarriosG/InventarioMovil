@@ -12,4 +12,8 @@
     <string name="codigo">Codigo:</string>
     <string name="descripcion">Descripcion:</string>
     <string name="precio">Precio:</string>
+    <string name="agregar_articulo">Agregar Articulo</string>
+    <string name="codigo_articulo">Codigo Articulo</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="guardar">Guardar</string>
 </resources>
