@@ -1,4 +1,4 @@
-package com.malfor.inventariomovil.ui.gallery;
+package com.malfor.inventariomovil.ui;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -18,6 +18,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.malfor.datos.entidad.EntidadArticulo;
 import com.malfor.inventariomovil.R;
 import com.malfor.inventariomovil.adapter.RecyclerAdapterArticulos;
+import com.malfor.inventariomovil.viewmodel.ViewModelArticulo;
 
 import java.util.ArrayList;
 import java.util.List;

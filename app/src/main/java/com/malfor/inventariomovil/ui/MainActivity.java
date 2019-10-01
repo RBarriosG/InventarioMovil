@@ -1,4 +1,4 @@
-package com.malfor.inventariomovil;
+package com.malfor.inventariomovil.ui;
 
 import android.os.Bundle;
 
@@ -8,6 +8,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
+import com.malfor.inventariomovil.R;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 

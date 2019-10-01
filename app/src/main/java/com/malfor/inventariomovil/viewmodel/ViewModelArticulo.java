@@ -1,4 +1,4 @@
-package com.malfor.inventariomovil.ui.gallery;
+package com.malfor.inventariomovil.viewmodel;
 
 import android.app.Application;
 
@@ -25,7 +25,7 @@ public class ViewModelArticulo extends AndroidViewModel {
     }
 
     public void guardar(){
-        EntidadArticulo entidadArticulo = new EntidadArticulo(2,"Papa",550);
+        EntidadArticulo entidadArticulo = new EntidadArticulo(2000,"Maracuya",2500);
         repositorioArticulo.guardar(entidadArticulo);
     }
 
